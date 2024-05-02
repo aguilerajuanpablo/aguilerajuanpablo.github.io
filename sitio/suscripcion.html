@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo formulario suscripcion</h1>
+    </header>
+    <main>
+        <form action="./respuesta.html">
+            <fieldset>
+            <legend>Datos personales y conocimiento</legend>
+            <label for="campo1">Nombre y apellido:</label>
+            <input name="campo1" type="text" size="60" required="True" placeholder="Escriba su nombre y apellido">
+            <br>
+            <input type="checkbox" name="opcion1"><label for="opcion1">Python</label>
+            <input type="checkbox" name="opcion2"><label for="opcion2">HTML</label>
+            <input type="checkbox" name="opcion3"><label for="opcion3">CSS 3</label>
+            </fieldset>
+            <!-- No puede faltar la acción  -->
+            <fieldset>
+                <legend>ACCION DEL FORMULARIO</legend>
+                <input type="submit" value="Enviar Datos">
+            </fieldset> 
+        </form>
+    </main>
+</body>
+</html>
